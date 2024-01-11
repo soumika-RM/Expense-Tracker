@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #e5ef99;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f8fc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.budget-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.budget-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #d2974f;
+}
+
+.budget-section input[type="number"] {
+    padding: 8px;
+    border: 2px solid #82400b;
+    border-radius: 4px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #e3b1d6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #792647;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-section button {
+    padding: 10px 16px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+    background-color: #27ae60;
+}
+
+.expenses-list {
+    margin: 20px;
+}
+
+#expense-table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #4d046a;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #8c68e7;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+#expense-chart-container {
+    text-align: center;
+}
+
+#remaining-budget {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+}

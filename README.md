@@ -21,7 +21,7 @@ Expense Tracker is a simple and intuitive web application designed to help you m
 1. **Clone the Repository:**
    - Copy the repository link.
    - Open your terminal or command prompt.
-   - Type `git clone <https://github.com/soumika-RM/Expense-Tracker>` and press Enter.
+   - Type `git clone https://github.com/soumika-RM/Expense-Tracker` and press Enter.
 
 2. **Open the Expense Tracker:**
    - Navigate to the cloned directory using `cd expense-tracker`.
